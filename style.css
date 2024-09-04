@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1220px;
+}
+
+.header-wrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.header-nav ul li a{
+    transition: 0.3s ease-in-out;
+}
+
+.header-nav ul li a:hover{
+    color: #FF7A50;
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+    gap: 57px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.header-btn {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    color: #ffff;
+    transition: 0.3s ease-in-out;
+}
+
+.header-btn:hover {
+    background-color: #fff;
+    color: #FF7A50;
+    border: 2px solid #FF7A50;
+}
+
+.left h1{
+    font-family: Rubik;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78.21px;
+    color: #363853;
+    margin-top: 213px;
+}
+
+.main1_text{
+    font-family: Rubik;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78.21px;
+    color: #FF7A50;
+}
+
+.left{
+    width: 530px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.left p{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #363853;
+}
+
+.header-btn2 {
+    width: 163px;
+    height: 50px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    color: #ffff;
+    transition: 0.3s ease-in-out;
+}
+
+.header-btn2:hover {
+    background-color: #fff;
+    color: #FF7A50;
+    border: 2px solid #FF7A50;
+}
+
+.main1{
+    display: flex;
+}
+
+.right img{
+    width: 700px;
+    margin-top: 97px;
+}
+
+.line1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.line1 a{
+    text-decoration: underline;
+    color: #363853;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+}
+
+
+.right2 h2{
+   font-family: Rubik;
+   font-size: 36px;
+   font-weight: 500;
+   line-height: 50px;
+   color: #363853;
+}
+
+.main2_text{
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #FF7A50;
+}
+
+.right2{
+    width: 400px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 95px;
+    margin-top: 192px;
+    margin-left: 137px;
+}
+
+.right2 p{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #363853;
+}
+
+.header-btn3 {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    color: #ffff;
+    width: 176px;
+    height: 58px;
+    border-radius: 30px 30px 1px 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.header-btn3:hover {
+    background-color: #fff;
+    color: #FF7A50;
+    border: 2px solid #FF7A50;
+}
+
+.main2{
+    display: flex;
+    margin-top: 80px;
+}
+
